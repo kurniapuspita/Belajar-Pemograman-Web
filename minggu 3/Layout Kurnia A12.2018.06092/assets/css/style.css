@@ -1,0 +1,151 @@
+/* style logo */
+.navbar-brand {
+   font-size: 1.3rem; /* memperbesar ukuran */
+   text-transform: uppercase; /* besar kecil huruf */ 
+   font-weight: bold; /* tebal tipis tulisan */
+}
+
+/* style text menu header */
+.navbar-light .navbar-nav .nav-link{
+   color: #7538e8; /* memberi warna tulisan */
+}
+.push-right{
+    margin-left: auto;
+    margin-right: 0 !important;
+    float: right;
+}
+
+/* style menu header yang aktif */
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #7538e8;
+    font-weight: bold;
+    border-bottom: 3px solid #7538e8;
+}
+ 
+/* Style gallery */
+.box-gallery .box-content-gallery {
+    padding: 10px 20px;
+}
+.box-gallery .box-content-gallery .box-left{
+    /* background-color: #f3f3f3; */
+}
+.box-gallery .box-content-gallery .box-right{
+    /* background-color: #f3f3f3; */
+}
+.box-gallery .box-content-gallery h3, 
+.box-gallery .box-content-gallery p {
+    margin-bottom: 0;
+}
+
+/* Style space */
+.mt{
+    margin-top: 32px;
+}
+.mt-halft{
+    margin-top: 16px;
+}
+
+/* Style list di footer / menu di footer */
+.listUnstyled{
+    list-style: none;
+    padding-left: 0;
+}
+.listUnstyled a{
+    color: #7538e8;
+}
+
+footer{
+    background-color: #e4e4e4;
+}
+
+/****************
+ Catalog 
+****************/
+
+.boxBanner-Catalog{
+    padding: 30px;
+   text-align: center;
+   margin-top: 60px;
+}
+.breadcrumb{
+    background-color: transparent;
+    text-align: center;
+}
+
+.item-catalog{
+    margin: 16px 0;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/* Login */
+.boxBanner-Login{
+    padding: 30px;
+   text-align: left;
+   margin-top: 60px;
+}
+
+/* star icon */
+.box-img-star img{
+    width: 25px;
+}
+.box-img-star div{
+    text-align: right;
+}
+.box-img-star div ul li{
+    display: inline-block;
+}
