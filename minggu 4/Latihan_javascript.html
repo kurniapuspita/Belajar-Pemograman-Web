@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link media="all" type="text/css" rel="stylesheet" href="js.css">
+	<title>Latihan Javascript</title>
+</head>
+
+<body>
+	<h1 align="center">Latihan JavaScript / Kurnia Tri Puspita / A12.2018 06092</h1>
+	<table>
+		<tr>
+			<td>NIM</td>
+			<td>:	
+			<select id="nim_mhs" onclick="pilihNim()">
+				<option value="">Pilih NIM</option>
+				<option value="Siti">A12.2018.06666</option>
+				<option value="Baim">A12.2017.09089</option>
+				<option value="sulis">A11.2017.02738</option>
+			</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Nama</td>
+			<td>:	<input type="text" id="nama_mhs"></td>
+		</tr>
+		
+		<tr>
+			<td>Nilai Tugas</td>
+			<td>:	<input type="number" id="tugas" min='1' max='100' placeholder="1-100" required></td>
+		</tr>
+		
+		<tr>
+			<td>Nilai UTS</td>
+			<td>:	<input type="number" id="uts" min='1' max='100' placeholder="1-100" required></td>
+		</tr>
+		
+		<tr>
+			<td>Nilai UAS</td>
+			<td>:	<input type="number" id="uas" min='1' max='100' placeholder="1-100" required></td>
+		</tr>
+		
+		<tr>
+			<td>Nilai Akhir</td>
+			<td>:	<input type="text" id="akhir" disabled></td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td><button onclick="hitungNilaiAkhir()">Simpan</button></td>
+		</tr>
+	</table>
+	<p id="table"></p>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
